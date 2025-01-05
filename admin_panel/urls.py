@@ -7,7 +7,7 @@ from middlewares.admin_auth import admin_middleware
 urlpatterns = [
     # path('admin/', admin.site.urls),
     # path('service/', include("service.urls")),
-    path('', views.dashboard),
+    path('', admin_middleware(views.dashboard)),
     path('dashboard/', admin_middleware(views.dashboard), name='dashboard'),
     path('signin/', views.signin, name='admin_panel.signin'),
     path('signup/', views.signup, name='admin_panel.signup'),
