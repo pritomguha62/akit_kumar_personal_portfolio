@@ -29,7 +29,7 @@ def signin_info(request):
 
         user = authenticate(email=email, password=password)
 
-        if user is not None:
+        if user is not None and user.is_staff == 1:
             login(request, user)
 
             # Set custom session data
@@ -39,7 +39,7 @@ def signin_info(request):
             # return HttpResponse(user.is_staff)
             return redirect('dashboard')
         else:
-            messages.error(request, "Invalid username or password.")
+            return messages.error(request, "Invalid username or password.")
 
 
 def signup_info(request):
