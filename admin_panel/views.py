@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, HttpResponseRedirect
 from django.http import HttpResponse
 from .forms import UserRegistrationForm
 from django.contrib.auth import login, authenticate, logout
@@ -39,7 +39,8 @@ def signin_info(request):
             # return HttpResponse(user.is_staff)
             return redirect('dashboard')
         else:
-            return messages.error(request, "Invalid username or password.")
+            messages.error(request, "Invalid username or password.")
+            return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))
 
 
 def signup_info(request):

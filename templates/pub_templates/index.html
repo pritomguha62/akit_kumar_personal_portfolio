@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-md-6 d-none d-md-block">
                     <div class="hero-image-box text-center">
-                        <img src="{%static 'pub_assets/images/logo.jpg' %}" alt="logo" />
+                        <img src="{%static 'pub_assets/images/logo.png' %}" alt="logo" />
                     </div>
                 </div>
             </div>
@@ -187,106 +187,96 @@
         <div class="popup_modal_content">
             <div class="service_details">
                 <div class="row">
-                    <div class="col-lg-7 col-xl-8">
+                    <div class="col-lg-12 col-xl-12">
                         <div class="service_details_content">
                             <div class="service_info">
                                 <h6 class="subtitle">SERVICES</h6>
                                 <h2 class="title">{{ service.title }}</h2>
                                 <div class="desc">
                                     <p>
-                                        Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.
-                                    </p>
-
-                                    <p>
-                                        Brolly show off show off pick your nose and blow off well A bit of how’s your father tomfoolery blimey, me old mucker starkers Queen’s English dropped a clanger bite your arm spiffing good
-                                        time burke Why chancer. Hotpot bum bag cracking goal young delinquent naff bugger cup of chars bender loo it’s all gone to pot the nancy cheeky.
-                                    </p>
-
-                                    <p>
-                                        At public school cras bog some dodgy chav Richard Why argy bargy vagabon William bender matie boy, off his nut chancer Jeffrey up the kyver say mufty you mug ummm telling pear shaped Oxford
-                                        owt to do with me do one so said are you taking his.
+                                        {{ service.description }}
                                     </p>
                                 </div>
 
-                                <h3 class="title">Services Process</h3>
-                                <div class="desc">
-                                    <p>
-                                        Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.
-                                    </p>
-                                </div>
-                                <ul>
-                                    <li>Reinvent Your Business to Better</li>
-                                    <li>Pioneering the Internet's First</li>
-                                    <li>Pioneering the Design World's First</li>
-                                    <li>Pioneering the Design World's First</li>
-                                    <li>Pioneering the Design World's First</li>
-                                    <li>Pioneering the Design World's First</li>
-                                </ul>
+<!--                                <h3 class="title">Services Process</h3>-->
+<!--                                <div class="desc">-->
+<!--                                    <p>-->
+<!--                                        Elizabeth some dodgy chavs are you taking the piss faff about pardon amongst car boot a load of old tosh is cracking goal blow off telling brown.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                                <ul>-->
+<!--                                    <li>Reinvent Your Business to Better</li>-->
+<!--                                    <li>Pioneering the Internet's First</li>-->
+<!--                                    <li>Pioneering the Design World's First</li>-->
+<!--                                    <li>Pioneering the Design World's First</li>-->
+<!--                                    <li>Pioneering the Design World's First</li>-->
+<!--                                    <li>Pioneering the Design World's First</li>-->
+<!--                                </ul>-->
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-xl-4">
-                        <div class="tj_main_sidebar">
-                            <div class="sidebar_widget services_list">
-                                <div class="widget_title">
-                                    <h3 class="title">All Services</h3>
-                                </div>
-                                <ul>
-                                    <li class="active">
-                                        <button>
-                                            <i class="flaticon-design"></i>
-                                            Branding Design
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button>
-                                            <i class="flaticon-3d-movie"></i>
-                                            3D Animation
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button>
-                                            <i class="flaticon-ux-design"></i>
-                                            UI/UX Design
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button>
-                                            <i class="flaticon-web-design"></i>
-                                            Web Design
-                                        </button>
-                                    </li>
-                                    <li>
-                                        <button>
-                                            <i class="flaticon-ui-design"></i>
-                                            App Design
-                                        </button>
-                                    </li>
-                                </ul>
-                            </div>
+<!--                    <div class="col-lg-5 col-xl-4">-->
+<!--                        <div class="tj_main_sidebar">-->
+<!--                            <div class="sidebar_widget services_list">-->
+<!--                                <div class="widget_title">-->
+<!--                                    <h3 class="title">All Services</h3>-->
+<!--                                </div>-->
+<!--                                <ul>-->
+<!--                                    <li class="active">-->
+<!--                                        <button>-->
+<!--                                            <i class="flaticon-design"></i>-->
+<!--                                            Branding Design-->
+<!--                                        </button>-->
+<!--                                    </li>-->
+<!--                                    <li>-->
+<!--                                        <button>-->
+<!--                                            <i class="flaticon-3d-movie"></i>-->
+<!--                                            3D Animation-->
+<!--                                        </button>-->
+<!--                                    </li>-->
+<!--                                    <li>-->
+<!--                                        <button>-->
+<!--                                            <i class="flaticon-ux-design"></i>-->
+<!--                                            UI/UX Design-->
+<!--                                        </button>-->
+<!--                                    </li>-->
+<!--                                    <li>-->
+<!--                                        <button>-->
+<!--                                            <i class="flaticon-web-design"></i>-->
+<!--                                            Web Design-->
+<!--                                        </button>-->
+<!--                                    </li>-->
+<!--                                    <li>-->
+<!--                                        <button>-->
+<!--                                            <i class="flaticon-ui-design"></i>-->
+<!--                                            App Design-->
+<!--                                        </button>-->
+<!--                                    </li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
 
-                            <div class="sidebar_widget contact_form">
-                                <div class="widget_title">
-                                    <h3 class="title">Get in Touch</h3>
-                                </div>
+<!--                            <div class="sidebar_widget contact_form">-->
+<!--                                <div class="widget_title">-->
+<!--                                    <h3 class="title">Get in Touch</h3>-->
+<!--                                </div>-->
 
-                                <form action="{% url 'home' %}">
-                                    <div class="form_group">
-                                        <input type="text" name="name" id="name" placeholder="Name" autocomplete="off" />
-                                    </div>
-                                    <div class="form_group">
-                                        <input type="email" name="semail" id="semail" placeholder="Email" autocomplete="off" />
-                                    </div>
-                                    <div class="form_group">
-                                        <textarea name="smessage" id="smessage" placeholder="Your message" autocomplete="off"></textarea>
-                                    </div>
-                                    <div class="form_btn">
-                                        <button class="btn tj-btn-primary" type="submit">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+<!--                                <form action="{% url 'home' %}">-->
+<!--                                    <div class="form_group">-->
+<!--                                        <input type="text" name="name" id="name" placeholder="Name" autocomplete="off" />-->
+<!--                                    </div>-->
+<!--                                    <div class="form_group">-->
+<!--                                        <input type="email" name="semail" id="semail" placeholder="Email" autocomplete="off" />-->
+<!--                                    </div>-->
+<!--                                    <div class="form_group">-->
+<!--                                        <textarea name="smessage" id="smessage" placeholder="Your message" autocomplete="off"></textarea>-->
+<!--                                    </div>-->
+<!--                                    <div class="form_btn">-->
+<!--                                        <button class="btn tj-btn-primary" type="submit">Send Message</button>-->
+<!--                                    </div>-->
+<!--                                </form>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
@@ -328,21 +318,21 @@
                         <div class="gutter-sizer"></div>
                         {% for portfolio in portfolios %}
                             <div class="portfolio-item service{{ portfolio.service_id }}">
-                            <div class="image-box">
-                            {% if portfolio.video %}
+                                <div class="image-box">
+                                {% if portfolio.video %}
 
-                                <video width="377px" height="323px" controls class="col-md-4 video_frame" src="{{ portfolio.video.url }}"></video>
-                                {% else %}
-                                <img width="377px" height="323px" src="media/service_images/coming_soon.gif" alt="{{ portfolio.title }}" />
-                            {% endif %}
+                                    <video autoplay loop muted style="max-width: 100%" height="450px" controls class="video_frame" src="{{ portfolio.video.url }}"></video>
+                                    {% else %}
+                                    <img width="377px" height="323px" src="media/service_images/coming_soon.gif" alt="{{ portfolio.title }}" />
+                                {% endif %}
+                                </div>
+    <!--                            <div class="content-box">-->
+    <!--                                <h3 class="portfolio-title">{{ portfolio.title }}</h3>-->
+    <!--                                <p>Project was about precision and information.</p>-->
+    <!--                                <i class="flaticon-up-right-arrow"></i>-->
+    <!--                                <button data-mfp-src="#portfolio-wrapper{{ portfolio.id }}" class="portfolio-link modal-popup"></button>-->
+    <!--                            </div>-->
                             </div>
-<!--                            <div class="content-box">-->
-<!--                                <h3 class="portfolio-title">{{ portfolio.title }}</h3>-->
-<!--                                <p>Project was about precision and information.</p>-->
-<!--                                <i class="flaticon-up-right-arrow"></i>-->
-<!--                                <button data-mfp-src="#portfolio-wrapper{{ portfolio.id }}" class="portfolio-link modal-popup"></button>-->
-<!--                            </div>-->
-                        </div>
                         {% endfor %}
                     </div>
                 </div>
@@ -427,24 +417,14 @@
 
                     <div class="resume-widget">
                         <div class="resume-item wow fadeInLeft" data-wow-delay=".4s">
-                            <div class="time">2022 - Present</div>
-                            <h3 class="resume-title">Lead Developer</h3>
-                            <div class="institute">Blockdots, London</div>
+                            <div class="time">2023 - Present</div>
+                            <h3 class="resume-title">Founder & CEO</h3>
+                            <div class="institute">Techpart IT, Tangail, Bangladesh</div>
                         </div>
                         <div class="resume-item wow fadeInLeft" data-wow-delay=".5s">
-                            <div class="time">2021 - 2022</div>
-                            <h3 class="resume-title">Full Stack Web Developer</h3>
-                            <div class="institute">Parsons, The New School</div>
-                        </div>
-                        <div class="resume-item wow fadeInLeft" data-wow-delay=".6s">
-                            <div class="time">2020 - 2021</div>
-                            <h3 class="resume-title">UI Designer</h3>
-                            <div class="institute">House of Life, Leeds</div>
-                        </div>
-                        <div class="resume-item wow fadeInLeft" data-wow-delay=".7s">
-                            <div class="time">2018 - 2020</div>
-                            <h3 class="resume-title">Junior Graphics Designer</h3>
-                            <div class="institute">Theme Junction, Bursa</div>
+                            <div class="time">2018 - 2023</div>
+                            <h3 class="resume-title">Associate Manager</h3>
+                            <div class="institute">Holy IT, Mymensingh, Bangladesh</div>
                         </div>
                     </div>
                 </div>
@@ -456,25 +436,25 @@
 
                     <div class="resume-widget">
                         <div class="resume-item wow fadeInRight" data-wow-delay=".5s">
-                            <div class="time">2020 - 2023</div>
-                            <h3 class="resume-title">Programming course</h3>
-                            <div class="institute">Harverd University</div>
+                            <div class="time">2022 - Present</div>
+                            <h3 class="resume-title">Management course</h3>
+                            <div class="institute">M.M. Ali College & University</div>
                         </div>
                         <div class="resume-item wow fadeInRight" data-wow-delay=".6s">
-                            <div class="time">2016 - 2020</div>
-                            <h3 class="resume-title">Graphic design course</h3>
-                            <div class="institute">University of Denmark</div>
+                            <div class="time">2020 - 2022</div>
+                            <h3 class="resume-title">Business Studies</h3>
+                            <div class="institute">M.G.M.H.A. College</div>
                         </div>
-                        <div class="resume-item wow fadeInRight" data-wow-delay=".7s">
-                            <div class="time">2012 - 2015</div>
-                            <h3 class="resume-title">Web design course</h3>
-                            <div class="institute">University of California</div>
-                        </div>
-                        <div class="resume-item wow fadeInRight" data-wow-delay=".8s">
-                            <div class="time">2010 - 2011</div>
-                            <h3 class="resume-title">Design &amp; Technology</h3>
-                            <div class="institute">Parsons, The New School</div>
-                        </div>
+<!--                        <div class="resume-item wow fadeInRight" data-wow-delay=".7s">-->
+<!--                            <div class="time">2012 - 2015</div>-->
+<!--                            <h3 class="resume-title">Web design course</h3>-->
+<!--                            <div class="institute">University of California</div>-->
+<!--                        </div>-->
+<!--                        <div class="resume-item wow fadeInRight" data-wow-delay=".8s">-->
+<!--                            <div class="time">2010 - 2011</div>-->
+<!--                            <h3 class="resume-title">Design &amp; Technology</h3>-->
+<!--                            <div class="institute">Parsons, The New School</div>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -608,9 +588,9 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <p class="quote">“Taylor is a professional Designer he really helps my business by providing value to my business.</p>
+                                <p class="quote">"Akit Kumar delivered exceptional edits! High-quality, fast, and creative. Truly impressed with the results!"</p>
                                 <h4 class="name">Brandon Fraser</h4>
-                                <span class="designation">Senior Software Dev, Cosmic Sport</span>
+                                <span class="designation">Youtuber</span>
                             </div>
                             <div class="testimonial-item">
                                 <div class="top-area d-flex flex-wrap justify-content-between">
@@ -647,9 +627,9 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <p class="quote">“Taylor is a professional Designer he really helps my business by providing value to my business.</p>
+                                <p class="quote">"Incredibly skilled work by Akit! My videos now look professional and engaging. Highly recommend!"</p>
                                 <h4 class="name">Tim Bailey</h4>
-                                <span class="designation">SEO Specialist, Theme Junction</span>
+                                <span class="designation">Influencer, Nexora Tech</span>
                             </div>
                             <div class="testimonial-item">
                                 <div class="top-area d-flex flex-wrap justify-content-between">
@@ -686,9 +666,9 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <p class="quote">“Taylor is a professional Designer he really helps my business by providing value to my business.</p>
+                                <p class="quote">"Amazing creativity from Akit Kumar! Transformed raw footage into a masterpiece. Excellent communication and quality!"</p>
                                 <h4 class="name">Brandon Fraser</h4>
-                                <span class="designation">Senior Software Dev, Cosmic Sport</span>
+                                <span class="designation">Entrepreneur, Vortexium Solutions</span>
                             </div>
                             <div class="testimonial-item">
                                 <div class="top-area d-flex flex-wrap justify-content-between">
@@ -725,88 +705,88 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <p class="quote">“Taylor is a professional Designer he really helps my business by providing value to my business.</p>
+                                <p class="quote">"Akit Kumar is a storytelling genius! Every edit felt purposeful, transforming my vision into a cinematic experience."</p>
                                 <h4 class="name">Tim Bailey</h4>
                                 <span class="designation">SEO Specialist, Theme Junction</span>
                             </div>
-                            <div class="testimonial-item">
-                                <div class="top-area d-flex flex-wrap justify-content-between">
-                                    <div class="logo-box">
-                                        <img src="images/1.png" alt="" />
-                                    </div>
-                                    <div class="image-box">
-                                        <img src="images/1.jpg" alt="" />
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
-                                            fill="url(#paint8_linear_263_512)"
-                                        ></path>
-                                        <defs>
-                                            <linearGradient id="paint8_linear_263_512" x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991" gradientUnits="userSpaceOnUse">
-                                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
-                                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
-                                            </linearGradient>
-                                        </defs>
-                                    </svg>
-                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
-                                            fill="url(#paint9_linear_263_513)"
-                                        ></path>
-                                        <defs>
-                                            <linearGradient id="paint9_linear_263_513" x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991" gradientUnits="userSpaceOnUse">
-                                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
-                                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
-                                            </linearGradient>
-                                        </defs>
-                                    </svg>
-                                </div>
-                                <p class="quote">“Taylor is a professional Designer he really helps my business by providing value to my business.</p>
-                                <h4 class="name">Brandon Fraser</h4>
-                                <span class="designation">Senior Software Dev, Cosmic Sport</span>
-                            </div>
-                            <div class="testimonial-item">
-                                <div class="top-area d-flex flex-wrap justify-content-between">
-                                    <div class="logo-box">
-                                        <img src="images/2.png" alt="" />
-                                    </div>
-                                    <div class="image-box">
-                                        <img src="images/2.jpg" alt="" />
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
-                                            fill="url(#paint10_linear_263_514)"
-                                        ></path>
-                                        <defs>
-                                            <linearGradient id="paint10_linear_263_514" x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991" gradientUnits="userSpaceOnUse">
-                                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
-                                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
-                                            </linearGradient>
-                                        </defs>
-                                    </svg>
-                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
-                                            fill="url(#paint11_linear_263_515)"
-                                        ></path>
-                                        <defs>
-                                            <linearGradient id="paint11_linear_263_515" x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991" gradientUnits="userSpaceOnUse">
-                                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
-                                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
-                                            </linearGradient>
-                                        </defs>
-                                    </svg>
-                                </div>
-                                <p class="quote">“Taylor is a professional Designer he really helps my business by providing value to my business.</p>
-                                <h4 class="name">Tim Bailey</h4>
-                                <span class="designation">SEO Specialist, Theme Junction</span>
-                            </div>
+<!--                            <div class="testimonial-item">-->
+<!--                                <div class="top-area d-flex flex-wrap justify-content-between">-->
+<!--                                    <div class="logo-box">-->
+<!--                                        <img src="images/1.png" alt="" />-->
+<!--                                    </div>-->
+<!--                                    <div class="image-box">-->
+<!--                                        <img src="images/1.jpg" alt="" />-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="icon-box">-->
+<!--                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                        <path-->
+<!--                                            d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"-->
+<!--                                            fill="url(#paint8_linear_263_512)"-->
+<!--                                        ></path>-->
+<!--                                        <defs>-->
+<!--                                            <linearGradient id="paint8_linear_263_512" x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991" gradientUnits="userSpaceOnUse">-->
+<!--                                                <stop offset="1" stop-color="var(&#45;&#45;tj-theme-primary)"></stop>-->
+<!--                                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>-->
+<!--                                            </linearGradient>-->
+<!--                                        </defs>-->
+<!--                                    </svg>-->
+<!--                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                        <path-->
+<!--                                            d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"-->
+<!--                                            fill="url(#paint9_linear_263_513)"-->
+<!--                                        ></path>-->
+<!--                                        <defs>-->
+<!--                                            <linearGradient id="paint9_linear_263_513" x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991" gradientUnits="userSpaceOnUse">-->
+<!--                                                <stop offset="1" stop-color="var(&#45;&#45;tj-theme-primary)"></stop>-->
+<!--                                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>-->
+<!--                                            </linearGradient>-->
+<!--                                        </defs>-->
+<!--                                    </svg>-->
+<!--                                </div>-->
+<!--                                <p class="quote">“Taylor is a professional Designer he really helps my business by providing value to my business.</p>-->
+<!--                                <h4 class="name">Brandon Fraser</h4>-->
+<!--                                <span class="designation">Senior Software Dev, Cosmic Sport</span>-->
+<!--                            </div>-->
+<!--                            <div class="testimonial-item">-->
+<!--                                <div class="top-area d-flex flex-wrap justify-content-between">-->
+<!--                                    <div class="logo-box">-->
+<!--                                        <img src="images/2.png" alt="" />-->
+<!--                                    </div>-->
+<!--                                    <div class="image-box">-->
+<!--                                        <img src="images/2.jpg" alt="" />-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="icon-box">-->
+<!--                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                        <path-->
+<!--                                            d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"-->
+<!--                                            fill="url(#paint10_linear_263_514)"-->
+<!--                                        ></path>-->
+<!--                                        <defs>-->
+<!--                                            <linearGradient id="paint10_linear_263_514" x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991" gradientUnits="userSpaceOnUse">-->
+<!--                                                <stop offset="1" stop-color="var(&#45;&#45;tj-theme-primary)"></stop>-->
+<!--                                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>-->
+<!--                                            </linearGradient>-->
+<!--                                        </defs>-->
+<!--                                    </svg>-->
+<!--                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                                        <path-->
+<!--                                            d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"-->
+<!--                                            fill="url(#paint11_linear_263_515)"-->
+<!--                                        ></path>-->
+<!--                                        <defs>-->
+<!--                                            <linearGradient id="paint11_linear_263_515" x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991" gradientUnits="userSpaceOnUse">-->
+<!--                                                <stop offset="1" stop-color="var(&#45;&#45;tj-theme-primary)"></stop>-->
+<!--                                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>-->
+<!--                                            </linearGradient>-->
+<!--                                        </defs>-->
+<!--                                    </svg>-->
+<!--                                </div>-->
+<!--                                <p class="quote">“Taylor is a professional Designer he really helps my business by providing value to my business.</p>-->
+<!--                                <h4 class="name">Tim Bailey</h4>-->
+<!--                                <span class="designation">SEO Specialist, Theme Junction</span>-->
+<!--                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -1055,7 +1035,7 @@
         const videoElements = document.querySelectorAll(".video_frame");
         videoElements.forEach((video) => {
           // Remove the autoplay attribute
-          video.removeAttribute("autoplay");
+          // video.removeAttribute("autoplay");
         });
     });
 </script>

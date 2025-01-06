@@ -45,3 +45,28 @@ def delete_service(request, id):
     # return redirect('blog_post_detail', id=service.id)
     return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))
 
+
+def update_service(request):
+    return render(request, 'admin_templates/update_service.html')
+
+
+def update_service_info(request):
+    if request.method == "POST":
+        service_info = request.POST
+
+        title = service_info.get('title')
+        short_description = service_info.get('short_description')
+        description = service_info.get('description')
+        image = request.FILES.get('image')
+
+        Service.objects.create(
+            title=title,
+            short_description=short_description,
+            description=description,
+            image=image,
+        )
+
+        messages.success(request, "Service added successfully.")
+
+        return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))
+
