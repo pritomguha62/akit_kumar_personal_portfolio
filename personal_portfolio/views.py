@@ -44,3 +44,4 @@ def contact_us_email(request):
         email.send()
         return HttpResponse("Email sent successfully!")
     return HttpResponse("Submit the form to send an email.")
+

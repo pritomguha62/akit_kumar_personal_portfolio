@@ -325,7 +325,9 @@
                                 {% if portfolio.video %}
 
                                     <video autoplay loop muted style="max-width: 100%" height="450px" controls class="video_frame" src="{{ portfolio.video.url }}"></video>
-                                    {% else %}
+                                    {% elif portfolio.image %}
+                                    <img width="377px" height="323px" src="{{ portfolio.image.url }}" alt="{{ portfolio.title }}" />
+                                    {%else%}
                                     <img width="377px" height="323px" src="media/service_images/coming_soon.gif" alt="{{ portfolio.title }}" />
                                 {% endif %}
                                 </div>
